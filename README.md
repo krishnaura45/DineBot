@@ -10,13 +10,23 @@ Welcome to the **DineBot** project! This repository contains the code and resour
 - [Installation](#installation)
 - [Backend Server Setup](#backend-server-setup)
 - [Ngrok for HTTPS Tunneling](#ngrok-for-https-tunneling)
-- [Usage](#usage)
+- [Future Scope](#future-scope)
 - [Contributing](#contributing)
 - [License](#license)
+- [Conclusion](#conclusion)
+- [References](#references)
 
 ## Project Overview
 
 In this project, we configured a chatbot using Dialogflow for natural language understanding. We built a backend server using Python and FastAPI to interact with a MySQL database for order placement and retrieval. The chatbot was integrated with a food website to enable seamless user interactions and efficient order management.
+
+## Tech Stacks Involved
+
+- **Natural Language Processing (NLP):** Dialogflow
+- **Backend Development:** Python, FastAPI
+- **Database Management:** MySQL
+- **Frontend Development:** HTML, CSS, JavaScript
+- **HTTPS Tunneling:** Ngrok
 
 ## Directory Structure
 
@@ -27,14 +37,6 @@ DineBot/
 ├── dialogflow_assets/    # Contains training phrases and intents for Dialogflow
 └── frontend/             # Contains the website code
 ```
-
-## Tech Stacks Involved
-
-- **Natural Language Processing (NLP):** Dialogflow
-- **Backend Development:** Python, FastAPI
-- **Database Management:** MySQL
-- **Frontend Development:** HTML, CSS, JavaScript
-- **HTTPS Tunneling:** Ngrok
 
 ## Installation
 
@@ -92,6 +94,13 @@ To expose your local server to the internet using Ngrok, follow these steps:
 
 Once the backend server and Ngrok are set up, you can interact with the DineBot through your food website. The chatbot will handle order placement and retrieval seamlessly.
 
+## Future Scope
+
+- **Enhanced NLP Capabilities:** Improve the chatbot's understanding and responses by integrating more advanced NLP techniques.
+- **Multi-language Support:** Expand the chatbot's functionality to support multiple languages.
+- **AI-driven Recommendations:** Implement AI algorithms to provide personalized food recommendations to users.
+- **Mobile App Integration:** Develop a mobile application to complement the web-based chatbot.
+
 ## Contributing
 
 We welcome contributions to enhance DineBot! To contribute, please follow these steps:
@@ -105,3 +114,14 @@ We welcome contributions to enhance DineBot! To contribute, please follow these 
 ## License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+## Conclusion
+
+DineBot aims to revolutionize the way users place food orders online, offering a seamless and efficient experience through advanced NLP and robust backend services. We look forward to your contributions and feedback to make this project even better.
+
+## References
+
+- [Dialogflow Documentation](https://cloud.google.com/dialogflow/docs)
+- [FastAPI Documentation](https://fastapi.tiangolo.com/)
+- [MySQL Documentation](https://dev.mysql.com/doc/)
+- [Ngrok Documentation](https://ngrok.com/docs)
