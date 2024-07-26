@@ -6,6 +6,7 @@ Welcome to the **DineBot** project! This repository contains the code and resour
 
 - [Project Overview](#project-overview)
 - [Directory Structure](#directory-structure)
+- [Tech Stacks](#tech-stacks-involved)
 - [Installation](#installation)
 - [Backend Server Setup](#backend-server-setup)
 - [Ngrok for HTTPS Tunneling](#ngrok-for-https-tunneling)
@@ -26,6 +27,14 @@ DineBot/
 ├── dialogflow_assets/    # Contains training phrases and intents for Dialogflow
 └── frontend/             # Contains the website code
 ```
+
+## Tech Stacks Involved
+
+- **Natural Language Processing (NLP):** Dialogflow
+- **Backend Development:** Python, FastAPI
+- **Database Management:** MySQL
+- **Frontend Development:** HTML, CSS, JavaScript
+- **HTTPS Tunneling:** Ngrok
 
 ## Installation
 
@@ -95,4 +104,4 @@ We welcome contributions to enhance DineBot! To contribute, please follow these 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
